@@ -1,6 +1,6 @@
 public class Java04_BarkingDog {
      public static boolean shouldWakeUp (boolean barking,int hourOfDay){
-        return  ( barking == true ? ((hourOfDay<8 && hourOfDay>=0) || hourOfDay == 23  ? true : false) : false );
+        return  ( barking ? (((hourOfDay<8 && hourOfDay>=0) || hourOfDay == 23)  ? true : false) : false );
          
      }
 
