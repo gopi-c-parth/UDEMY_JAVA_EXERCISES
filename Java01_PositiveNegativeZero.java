@@ -1,4 +1,4 @@
-public class PositiveNegativeZero_01 {
+public class Java01_PositiveNegativeZero {
 
     public static void main(String[] args) {
         checkNumber(5);
